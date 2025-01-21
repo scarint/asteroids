@@ -4,6 +4,9 @@ from constants import *
 
 # player class
 class Player(CircleShape):
+    # Class Variables
+
+    # Class Initiation
     def __init__(self, x, y):
         super().__init__(x, y, PLAYER_RADIUS)
         self.rotation = 0
